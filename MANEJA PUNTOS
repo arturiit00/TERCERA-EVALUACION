@@ -1,0 +1,21 @@
+package Primeras_Clases;
+
+public class ManejaPuntos {
+
+	public static void main(String[] args) {
+		//Esta clase sirve para ver si he pensado bien
+		//la clase punto
+		int x=2;
+		double y=3.1416;
+		char l='A';
+		boolean respuesta=true;
+		String palabra;
+		Punto miPrimerPunto; //Declaro un objeto de la clase Punto
+		
+		miPrimerPunto=new Punto(2,3); //Utilizo su constructor para iniciarlo
+		System.out.println("Este punto dista del origen: ");
+		System.out.print(miPrimerPunto.devuelveDistanciaOrigen());
+
+	}
+
+}

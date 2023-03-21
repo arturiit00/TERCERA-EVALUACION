@@ -1,0 +1,37 @@
+package Primeras_Clases;
+
+public class Punto {
+	private int coordY;
+	//atributos
+	private int coordX;
+	
+	//constructor
+	public Punto(int nuevaCoordX, int nuevaCoordY){
+		coordX=nuevaCoordX;
+		coordY=nuevaCoordY;
+	}
+	//metodos
+	double devuelveDistanciaOrigen(){
+		double distancia;
+		distancia=Math.sqrt(coordX*coordX+coordY*coordY);
+		return(distancia);
+	}
+	//Método setter&getter
+	//Método set: Sirve para fijar un atributo
+	//Método get: Sirve para sacar un atributo
+	
+	public int getCoordX() {
+		return coordX;
+	}
+	public void setCoordX(int coordX) {
+		this.coordX = coordX;
+	}
+	public int getCoordY() {
+		return coordY;
+	}
+	public void setCoordY(int coordY) {
+		this.coordY = coordY;
+	}
+	
+
+}

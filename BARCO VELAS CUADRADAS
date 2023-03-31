@@ -1,0 +1,17 @@
+package Primeras_Clases;
+
+public class BarcoVelasCuadradas extends Barco {
+	private boolean tieneVelasCuadradas;
+	public BarcoVelasCuadradas(String nombreBarco, int tamano, int numeroPalos, boolean tieneVelasCuadradas) {
+		super(nombreBarco, tamano, numeroPalos);
+		this.tieneVelasCuadradas=tieneVelasCuadradas;
+		// TODO Auto-generated constructor stub
+	}
+	public boolean isTieneVelasCuadras() {
+		return tieneVelasCuadradas;
+	}
+	public void setTieneVelasCuadras(boolean tieneVelasCuadras) {
+		this.tieneVelasCuadradas = tieneVelasCuadras;
+	}
+	
+}
